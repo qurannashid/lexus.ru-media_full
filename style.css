@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-nav{
+    /* margin-left: 600px;
+    font-weight: 600;*/
+    font-size: 14px;
+}
+.navbar-brand img{
+    width: 142px;
+    height: 32px;
+}
+.navbar-text {
+    font-size: 20px;
+    margin-right: -80px;
+}
+.navbar-bran{
+    height: 35px;
+    color: black;
+    border-right: 1px solid rgb(173, 164, 164);
+}
+.logo{
+    margin: 0 10px 0 0 ;
+}
+.container img{
+    width: 100%;
+}
+.card1{
+    width: 310px;
+}
+.nav-body{
+    /* border-top: 1px solid gray; */
+    margin: 15px 0 0 0;
+}
+.first{
+    list-style: none;
+    color: black;
+    line-height: 40px;
+}
+.first a{
+    color: gray;
+    text-decoration: none;
+}
+.second{
+    list-style: none;
+    line-height: 40px;
+}
+.second a{
+    color: gray;
+    text-decoration: none;
+}
+.third{
+    list-style: none;
+    line-height: 40px;
+}
+.third a{
+    color: gray;
+    text-decoration: none;
+}
+.tort{
+    list-style: none;
+    line-height: 40px;
+}
+.tort a{
+    color: gray;
+    text-decoration: none;
+}
+/* .volvo{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 12px;
+} */
+
+@media (max-width:414px){
+    body{
+        max-width: 413px;
+    }
+    nav{
+        max-width: 400px;
+    }
+    .container{
+        max-width: 414px;
+    }
+}
